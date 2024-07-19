@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Field;
 
 @Document(collation = "registration")
 public class Registration {
-    @
+    @Id
     private String id;
     @Field
     private String name;
